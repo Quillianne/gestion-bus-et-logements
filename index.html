@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Logements et des Bus</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            margin-top: 50px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .big-box {
+            background-color: #f0f0f0; /* Plus clair */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 900px;
+            text-align: center;
+            margin-bottom: 50px; /* Espace entre les sections */
+        }
+        .big-box:hover {
+            background-color: #e6e6e6;
+        }
+        .small-box-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .small-box {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+        .small-box:hover {
+            transform: translateY(-5px);
+        }
+        .small-box h3 {
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+        .small-box a {
+            text-decoration: none;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gestion des Logements et des Bus</h1>
+
+    <!-- Section Logements -->
+    <div class="container">
+        <div class="big-box">
+            <h2>Logements</h2>
+            <div class="small-box-container">
+                <div class="small-box">
+                    <h3>Logements disponibles</h3>
+                    <a href="https://airtable.com/apprQ77wnhoRUDlIB/shrHUpn01M92oLqsl" target="_blank">
+                        <button class="button">Accéder</button>
+                    </a>
+                </div>
+                <div class="small-box">
+                    <h3>Composition des logements</h3>
+                    <a href="https://airtable.com/apprQ77wnhoRUDlIB/shrB3ho7AU3D0FsOi" target="_blank">
+                        <button class="button">Accéder</button>
+                    </a>
+                </div>
+                <div class="small-box">
+                    <h3>Participants sans logements</h3>
+                    <a href="https://airtable.com/apprQ77wnhoRUDlIB/shrNeG2MDvJubc9FY" target="_blank">
+                        <button class="button">Accéder</button>
+                    </a>
+                </div>
+            </div>
+            <a href="https://airtable.com/apprQ77wnhoRUDlIB/pag0HwjCO3kodCPR2/form" target="_blank">
+                <button class="button">Choisir mon logement</button>
+            </a>
+        </div>
+
+        <!-- Section Bus -->
+        <div class="big-box">
+            <h2>Bus</h2>
+            <div class="small-box-container">
+                <div class="small-box">
+                    <h3>Bus disponibles</h3>
+                    <a href="https://airtable.com/apprQ77wnhoRUDlIB/shrt8xgQbLOYr6SZZ" target="_blank">
+                        <button class="button">Accéder</button>
+                    </a>
+                </div>
+                <div class="small-box">
+                    <h3>Composition des bus</h3>
+                    <a href="https://airtable.com/apprQ77wnhoRUDlIB/shr1DZPFWci8LRS6v" target="_blank">
+                        <button class="button">Accéder</button>
+                    </a>
+                </div>
+                <div class="small-box">
+                    <h3>Participants sans bus</h3>
+                    <a href="https://airtable.com/apprQ77wnhoRUDlIB/shr605GVzVbLEbuf4" target="_blank">
+                        <button class="button">Accéder</button>
+                    </a>
+                </div>
+            </div>
+            <a href="https://airtable.com/apprQ77wnhoRUDlIB/pagtM2EB9obY0RgO4/form" target="_blank">
+                <button class="button">Choisir mon bus</button>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
